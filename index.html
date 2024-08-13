@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is my first website</title>
+    </head>
+    <body>
+        <h1>ram is a good boy</h1>
+        <h2>ram is a good boy</h2>
+        <h3>ram is a good boy</h3>
+        <h4>ram is a good boy</h4>
+        <h5>ram is a good boy</h5>
+        <h6>ram is a good boy</h6>
+        <!--h1 (36px) h2 (30px) h3 (24px) h4 (18px) h5 (14px) h6 (12px) -->
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Dolores cupiditate, maxime aliquam enim sapiente repellat facilis, porro unde vero temporibus quis,
+             suscipit illo deleniti voluptates dicta et totam harum est?
+        </p>
+        <!--todo:a tag--> <!--a tag is anchor tag --> 
+        <!--anchor tag ka use humlog isliye karte ha ek page se dusre page mai jane ke liye anchor tag ka prayaog karte ha-->
+        <a href="https://www.thapatechnical.com/" target="_blank" title="visit now">visit my website</a> <!--target ka use new page kholne ka kaam karte ha-->
+        <!--title ka use tool ke rup mai use karte ha dikhne ke liye-->
+        <br>
+        <a href="tel:6202947366">+6202947366</a>
+        <br>
+        <a href="mailto:rajgaurav8455@gmail.com">rajgaurav8455@gmail.com</a>
+        <br>
+        <a href="rajos7.pdf">download frontpage</a> <!--download karne se pehle pdf ko html folder mai paste kar do-->
+        <!--TODD:Image (void Element)-->
+        <!--image tag ka use humlog image ko insert karne ke liye karte ha alt ka use agar image na dikhe tho show kare ki yaha image ha-->
+        <br>
+        <br>
+        <img src="photo.jpg" alt="html course image" 
+        width="400"
+        height="400"
+        />
+        <br>
+        <br>
+        <!--relative path is defined as the path we create the path-->
+        <img src="./image/test.jpg" alt="html course image"
+        width="400"
+        height="400"
+        />
+        <br>
+        <br>
+        <!--absolute path is defined as the path is starting from beginning-->
+        <!--absolute path usee kahte waisa path jo beginning se path ko follow karta ha-->
+        <img src="D:\website\html\image\test.jpg" alt="html course image"
+        width="400"
+        height="400"
+        />
+        <br>
+        <br>
+        <!--the main difference between an absolute and relative pathway is that an absolute
+        path species the location from the root directory and carries detailed 
+        information whereas relative path is related to the current directory
+        and carries only a part of the absolute pathway.-->
+        <!--how to image clickable-->
+        <a href="https://www.thapatechnical.com/" target="_blank">
+        <img src="photo.jpg" alt="html course image"
+        width="400"
+        height="400"
+        />
+        </a>
+        <br>
+        <!--picture tag we use squoosh to get wepbp photo agar webp support karega tho webp dikha dega nahi tho jpg and png tho ha hi-->
+        <!--todo picture tag-->
+        <picture>
+            <source srcset="./image/photo3.webp" />
+            <source srcset="./image/photo.jpg" />
+            <img src="./images/photo2.png" alt="" width="300"/>
+        </picture>
+        <br>
+        <!--Figure tag-->
+        <!--Figure tag is used html elements represents self-contained content,potentially with an optional caption 
+        ,which is specified using the &ltfigcaption&gtvelement-->
+        <!--figure tag use humlog picture mai caption dene ka kaam karte ha-->
+        <figure>
+            <img src="./image/photo2.png" alt="" width="300" />
+            <figcaption>the best html course</figcaption>
+        </figure>
+
+        
+
+
+    </body>
+</html>
